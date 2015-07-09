@@ -329,7 +329,8 @@ function genSent(s,v,o,e)
     {
         sortaForm = "<span style='font-size:50%'>sorta</span>";
     }
-    return s+" "+sortaForm+" "+v+" "+o+".";
+	//I removed sortaForm
+    return s+" "+v+" "+o+".";
 }
 
 

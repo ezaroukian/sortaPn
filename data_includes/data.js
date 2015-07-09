@@ -2,7 +2,7 @@
 
 var manualSendResults = true;
 //var shuffleSequence =   seq("intro","inst",rshuffle(rshuffle("test.itv","test.cre","filler")),"sr","done");      
-var shuffleSequence =   seq("inst","ex.other.s","ex.other.u","instEnd",rshuffle(rshuffle("test.itv.s","test.cre.s","test.other.s",
+var shuffleSequence =   seq(rshuffle(rshuffle("test.itv.s","test.cre.s","test.other.s",
                                                                     "test.itv.u","test.cre.u","test.other.u",
                                                                     "filler.itv.s","filler.cre.s","filler.other.s",
                                                                     "filler.itv.u","filler.cre.u","filler.other.u")),"sr","done");      
