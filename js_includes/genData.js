@@ -260,7 +260,7 @@ function genQuestion(list,vType,e,qType)
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
-    return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence:"+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
+    return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
 }
 
 function genPracticeQuestion(list,vType,e,qType)
