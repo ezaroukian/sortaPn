@@ -1,0 +1,273 @@
+#
+# Results on Thursday January 29 2015 15:29:44 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+# Design number was non-random = 32
+#
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Sentence (or sentence MD5).
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1422545384,ea342928f6f98249cd09f71162099fda,PracticeAcceptability,10,0,ex.other.s,NULL,Steve <span style='font-size:150%'><b>sorta</b></span> kicked the ball.<br/><br/> Context: What Steve kicked was actually more like a balloon.
+1422545384,ea342928f6f98249cd09f71162099fda,PracticeAcceptability,10,0,ex.other.s,NULL,NULL,1,NULL,2373
+1422545384,ea342928f6f98249cd09f71162099fda,PracticeAcceptability,11,0,ex.other.u,NULL,Steve <span style='font-size:50%'>sorta</span> kicked the ball.<br/><br/> Context: What Steve kicked was actually more like a balloon.
+1422545384,ea342928f6f98249cd09f71162099fda,PracticeAcceptability,11,0,ex.other.u,NULL,NULL,1,NULL,2804
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,16,0,test.other.u,NULL,Chris <span style='font-size:50%'>sorta</span> threw away a pen.<br/><br/> Context: What Chris threw away was actually more like a marker.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,16,0,test.other.u,NULL,NULL,1,NULL,6085
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,21,0,filler.other.s,NULL,Laura <span style='font-size:150%'><b>sorta</b></span> wore the skirt.<br/><br/> Context: What Laura wore was actually more like a tutu.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,21,0,filler.other.s,NULL,NULL,1,NULL,972
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,15,0,test.itv.s,NULL,Sam <span style='font-size:150%'><b>sorta</b></span> looked for a mountain.<br/><br/> Context: What Sam looked for was actually more like a big hill.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,15,0,test.itv.s,NULL,NULL,1,NULL,574
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,26,0,filler.other.u,NULL,Leah <span style='font-size:50%'>sorta</span> washed the apple.<br/><br/> Context: What Leah washed was actually more like a pear.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,26,0,filler.other.u,NULL,NULL,1,NULL,564
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,33,0,test.other.s,NULL,Charlie <span style='font-size:150%'><b>sorta</b></span> fell in a pit.<br/><br/> Context: What Charlie fell in was actually more like a medium-size hole.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,33,0,test.other.s,NULL,NULL,1,NULL,478
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,36,0,filler.other.u,NULL,Rebecca <span style='font-size:50%'>sorta</span> sat on the pillow.<br/><br/> Context: What Rebecca sat on was actually more like a rug.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,36,0,filler.other.u,NULL,NULL,1,NULL,1805
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,35,0,test.other.s,NULL,Roger <span style='font-size:150%'><b>sorta</b></span> sliced an orange.<br/><br/> Context: What Roger sliced was actually more like a tangerine.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,35,0,test.other.s,NULL,NULL,1,NULL,1982
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,40,0,filler.cre.u,NULL,Lars <span style='font-size:50%'>sorta</span> sculpted the mug.<br/><br/> Context: What Lars sculpted was actually more like a bowl.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,40,0,filler.cre.u,NULL,NULL,1,NULL,1215
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,25,0,filler.itv.s,NULL,Ben <span style='font-size:150%'><b>sorta</b></span> hoped for the bicycle.<br/><br/> Context: What Ben hoped for was actually more like a tricyle.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,25,0,filler.itv.s,NULL,NULL,1,NULL,432
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,38,0,filler.cre.u,NULL,Cynthia <span style='font-size:50%'>sorta</span> composed the sonnet.<br/><br/> Context: What Cynthia composed was actually more like free verse.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,38,0,filler.cre.u,NULL,NULL,1,NULL,353
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,17,0,test.other.s,NULL,Irene <span style='font-size:150%'><b>sorta</b></span> flew through a storm.<br/><br/> Context: What Irene flew through was actually more like a bit of rain.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,17,0,test.other.s,NULL,NULL,1,NULL,894
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,39,0,filler.cre.s,NULL,Duncan <span style='font-size:150%'><b>sorta</b></span> created the mess.<br/><br/> Context: What Duncan created was actually more like a little clutter.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,39,0,filler.cre.s,NULL,NULL,1,NULL,369
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,14,0,test.itv.u,NULL,Andy <span style='font-size:50%'>sorta</span> begged for a trophy.<br/><br/> Context: What Andy begged for was actually more like a statuette.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,14,0,test.itv.u,NULL,NULL,1,NULL,561
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,29,0,test.cre.s,NULL,Mary <span style='font-size:150%'><b>sorta</b></span> wrote a novel.<br/><br/> Context: What Mary wrote was actually more like a novella.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,29,0,test.cre.s,NULL,NULL,1,NULL,637
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,27,0,filler.other.s,NULL,Craig <span style='font-size:150%'><b>sorta</b></span> folded the sheet.<br/><br/> Context: What Craig folded was actually more like a tarp.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,27,0,filler.other.s,NULL,NULL,1,NULL,384
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,20,0,filler.other.u,NULL,Tony <span style='font-size:50%'>sorta</span> hammered the nail.<br/><br/> Context: What Tony hammered was actually more like a tack.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,20,0,filler.other.u,NULL,NULL,1,NULL,303
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,12,0,test.itv.u,NULL,Bob <span style='font-size:50%'>sorta</span> wanted a raise.<br/><br/> Context: What Bob wanted was actually more like a bonus.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,12,0,test.itv.u,NULL,NULL,1,NULL,320
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,23,0,filler.itv.s,NULL,Helen <span style='font-size:150%'><b>sorta</b></span> asked for the sandwich.<br/><br/> Context: What Helen asked for was actually more like a wrap.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,23,0,filler.itv.s,NULL,NULL,1,NULL,289
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,19,0,test.other.s,NULL,Katie <span style='font-size:150%'><b>sorta</b></span> visited a castle.<br/><br/> Context: What Katie visited was actually more like a monastery.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,19,0,test.other.s,NULL,NULL,1,NULL,271
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,28,0,test.cre.u,NULL,John <span style='font-size:50%'>sorta</span> built a barn.<br/><br/> Context: What John built was actually more like a shack.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,28,0,test.cre.u,NULL,NULL,1,NULL,369
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,31,0,test.cre.s,NULL,Sue <span style='font-size:150%'><b>sorta</b></span> drew a wolf.<br/><br/> Context: What Sue drew was actually more like a coyote.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,31,0,test.cre.s,NULL,NULL,1,NULL,354
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,24,0,filler.itv.u,NULL,Amanda <span style='font-size:50%'>sorta</span> demanded the towel.<br/><br/> Context: What Amanda demanded was actually more like a washcloth.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,24,0,filler.itv.u,NULL,NULL,1,NULL,433
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,37,0,filler.other.s,NULL,Dan <span style='font-size:150%'><b>sorta</b></span> watched the movie.<br/><br/> Context: What Dan watched was actually more like a short film.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,37,0,filler.other.s,NULL,NULL,1,NULL,480
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,41,0,filler.cre.s,NULL,Martina <span style='font-size:150%'><b>sorta</b></span> invented the soup.<br/><br/> Context: What Martina invented was actually more like a stew.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,41,0,filler.cre.s,NULL,NULL,1,NULL,562
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,34,0,test.other.u,NULL,Claire <span style='font-size:50%'>sorta</span> listened to a symphony.<br/><br/> Context: What Claire listened to was actually more like a tone poem.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,34,0,test.other.u,NULL,NULL,1,NULL,482
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,30,0,test.cre.u,NULL,Peter <span style='font-size:50%'>sorta</span> made a pizza.<br/><br/> Context: What Peter made was actually more like a calzone.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,30,0,test.cre.u,NULL,NULL,1,NULL,640
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,42,0,filler.other.u,NULL,Patricia <span style='font-size:50%'>sorta</span> held the monkey.<br/><br/> Context: What Patricia held was actually more like a chimpanzee.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,42,0,filler.other.u,NULL,NULL,1,NULL,752
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,13,0,test.itv.s,NULL,Sarah <span style='font-size:150%'><b>sorta</b></span> needed a blender.<br/><br/> Context: What Sarah needed was actually more like a food processor.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,13,0,test.itv.s,NULL,NULL,1,NULL,850
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,22,0,filler.itv.u,NULL,Greg <span style='font-size:50%'>sorta</span> was afraid of the puppy.<br/><br/> Context: What Greg was afraid of was actually more like a full-grown miniature poodle.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,22,0,filler.itv.u,NULL,NULL,1,NULL,1058
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,43,0,filler.other.s,NULL,Brandon <span style='font-size:150%'><b>sorta</b></span> played the oboe.<br/><br/> Context: What Brandon played was actually more like an English horn.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,43,0,filler.other.s,NULL,NULL,1,NULL,754
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,32,0,test.other.u,NULL,Anna <span style='font-size:50%'>sorta</span> borrowed a scarf.<br/><br/> Context: What Anna borrowed was actually more like a pashmina.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,32,0,test.other.u,NULL,NULL,1,NULL,515
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,18,0,test.other.u,NULL,Dennis <span style='font-size:50%'>sorta</span> yelled at a bee.<br/><br/> Context: What Dennis yelled at was actually more like a wasp.
+1422545384,ea342928f6f98249cd09f71162099fda,AcceptabilityJudgment,18,0,test.other.u,NULL,NULL,1,NULL,691
+#
+# Results on Thursday January 29 2015 15:44:37 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+# Design number was non-random = 32
+#
+#
+# Results on Thursday January 29 2015 15:45:35 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+# Design number was non-random = 32
+#
+#
+# Results on Thursday January 29 2015 15:46:31 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+# Design number was non-random = 32
+#
+#
+# Results on Thursday July 09 2015 13:53:36 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0
+# Design number was non-random = 32
+#
+# The lines below this comment are in groups of 2.
+# The formats of the lines in each of these groups are as follows:
+#
+# Line 1:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Sentence (or sentence MD5).
+# Line 2:
+#     Col. 1: Time results were received.
+#     Col. 2: MD5 hash of participant's IP address.
+#     Col. 3: Controller name.
+#     Col. 4: Item number.
+#     Col. 5: Element number.
+#     Col. 6: Type.
+#     Col. 7: Group.
+#     Col. 8: Question (NULL if none).
+#     Col. 9: Answer.
+#     Col. 10: Whether or not answer was correct (NULL if N/A).
+#     Col. 11: Time taken to answer.
+1436450016,250421ad961d04b53d76569c0833fc8f,PracticeAcceptability,10,0,ex.other.s,NULL,Steve <span style='font-size:150%'><b>sorta</b></span> kicked the ball.<br/><br/> Context: What Steve kicked was actually more like a balloon.
+1436450016,250421ad961d04b53d76569c0833fc8f,PracticeAcceptability,10,0,ex.other.s,NULL,NULL,6,NULL,72589
+1436450016,250421ad961d04b53d76569c0833fc8f,PracticeAcceptability,11,0,ex.other.u,NULL,Steve <span style='font-size:50%'>sorta</span> kicked the ball.<br/><br/> Context: What Steve kicked was actually more like a balloon.
+1436450016,250421ad961d04b53d76569c0833fc8f,PracticeAcceptability,11,0,ex.other.u,NULL,NULL,3,NULL,5540
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,51,0,test.cre.s,NULL,Sue <span style='font-size:150%'><b>sorta</b></span> drew a wolf.<br/><br/> Context: What Sue drew was actually more like a coyote.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,51,0,test.cre.s,NULL,NULL,4,NULL,375781
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,52,0,test.other.u,NULL,Anna <span style='font-size:50%'>sorta</span> borrowed a scarf.<br/><br/> Context: Anna actually just stole it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,52,0,test.other.u,NULL,NULL,4,NULL,9866
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,13,0,test.itv.u,NULL,Bob <span style='font-size:50%'>sorta</span> wanted a raise.<br/><br/> Context: What Bob wanted was actually more like a bonus.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,13,0,test.itv.u,NULL,NULL,5,NULL,36596
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,66,0,filler.cre.s,NULL,Duncan <span style='font-size:150%'><b>sorta</b></span> created the mess.<br/><br/> Context: Duncan actually just added a bit to what was already pretty untidy when he arrived.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,66,0,filler.cre.s,NULL,NULL,4,NULL,30889
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,19,0,test.itv.s,NULL,Sam <span style='font-size:150%'><b>sorta</b></span> looked for a mountain.<br/><br/> Context: What Sam looked for was actually more like a big hill.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,19,0,test.itv.s,NULL,NULL,4,NULL,39067
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,22,0,test.other.s,NULL,Irene <span style='font-size:150%'><b>sorta</b></span> flew through a storm.<br/><br/> Context: Irene actually just flew through the very edge of it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,22,0,test.other.s,NULL,NULL,4,NULL,31715
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,50,0,test.cre.s,NULL,Sue <span style='font-size:150%'><b>sorta</b></span> drew a wolf.<br/><br/> Context: Sue actually just traced it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,50,0,test.cre.s,NULL,NULL,4,NULL,20654
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,67,0,filler.cre.s,NULL,Duncan <span style='font-size:150%'><b>sorta</b></span> created the mess.<br/><br/> Context: What Duncan created was actually more like a little clutter.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,67,0,filler.cre.s,NULL,NULL,4,NULL,1777
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,43,0,filler.other.s,NULL,Craig <span style='font-size:150%'><b>sorta</b></span> folded the sheet.<br/><br/> Context: What Craig folded was actually more like a tarp.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,43,0,filler.other.s,NULL,NULL,4,NULL,338176
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,54,0,test.other.s,NULL,Charlie <span style='font-size:150%'><b>sorta</b></span> fell in a pit.<br/><br/> Context: Charlie actually just got his foot caught in it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,54,0,test.other.s,NULL,NULL,4,NULL,4
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,70,0,filler.cre.s,NULL,Martina <span style='font-size:150%'><b>sorta</b></span> invented the soup.<br/><br/> Context: Martina actually just added cumin to her grandmother's recipe.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,70,0,filler.cre.s,NULL,NULL,4,NULL,15341
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,40,0,filler.other.u,NULL,Leah <span style='font-size:50%'>sorta</span> washed the apple.<br/><br/> Context: Leah actually just rubbed it on her shirt.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,40,0,filler.other.u,NULL,NULL,4,NULL,3631
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,59,0,test.other.s,NULL,Roger <span style='font-size:150%'><b>sorta</b></span> sliced an orange.<br/><br/> Context: What Roger sliced was actually more like a tangerine.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,59,0,test.other.s,NULL,NULL,4,NULL,807
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,23,0,test.other.s,NULL,Irene <span style='font-size:150%'><b>sorta</b></span> flew through a storm.<br/><br/> Context: What Irene flew through was actually more like a bit of rain.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,23,0,test.other.s,NULL,NULL,4,NULL,48128
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,61,0,filler.other.u,NULL,Rebecca <span style='font-size:50%'>sorta</span> sat on the pillow.<br/><br/> Context: What Rebecca sat on was actually more like a rug.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,61,0,filler.other.u,NULL,NULL,4,NULL,1184
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,72,0,filler.other.u,NULL,Patricia <span style='font-size:50%'>sorta</span> held the monkey.<br/><br/> Context: Patricia actually just let it climb up her.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,72,0,filler.other.u,NULL,NULL,4,NULL,1127
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,30,0,filler.other.s,NULL,Laura <span style='font-size:150%'><b>sorta</b></span> wore the skirt.<br/><br/> Context: Laura actually just used it as a shawl.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,30,0,filler.other.s,NULL,NULL,4,NULL,1143
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,37,0,filler.itv.u,NULL,Amanda <span style='font-size:50%'>sorta</span> demanded the towel.<br/><br/> Context: What Amanda demanded was actually more like a washcloth.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,37,0,filler.itv.u,NULL,NULL,4,NULL,942
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,21,0,test.other.u,NULL,Chris <span style='font-size:50%'>sorta</span> threw away a pen.<br/><br/> Context: What Chris threw away was actually more like a marker.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,21,0,test.other.u,NULL,NULL,4,NULL,961
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,63,0,filler.other.s,NULL,Dan <span style='font-size:150%'><b>sorta</b></span> watched the movie.<br/><br/> Context: What Dan watched was actually more like a short film.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,63,0,filler.other.s,NULL,NULL,4,NULL,1034
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,25,0,test.other.u,NULL,Dennis <span style='font-size:50%'>sorta</span> yelled at a bee.<br/><br/> Context: What Dennis yelled at was actually more like a wasp.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,25,0,test.other.u,NULL,NULL,4,NULL,770
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,55,0,test.other.s,NULL,Charlie <span style='font-size:150%'><b>sorta</b></span> fell in a pit.<br/><br/> Context: What Charlie fell in was actually more like a medium-size hole.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,55,0,test.other.s,NULL,NULL,4,NULL,1169
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,12,0,test.itv.u,NULL,Bob <span style='font-size:50%'>sorta</span> wanted a raise.<br/><br/> Context: Bob actually just wondered whether he needed a raise.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,12,0,test.itv.u,NULL,NULL,4,NULL,58164
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,71,0,filler.cre.s,NULL,Martina <span style='font-size:150%'><b>sorta</b></span> invented the soup.<br/><br/> Context: What Martina invented was actually more like a stew.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,71,0,filler.cre.s,NULL,NULL,4,NULL,3618
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,18,0,test.itv.s,NULL,Sam <span style='font-size:150%'><b>sorta</b></span> looked for a mountain.<br/><br/> Context: Sam actually just took a quick glance at an outdated map.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,18,0,test.itv.s,NULL,NULL,4,NULL,33101
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,14,0,test.itv.s,NULL,Sarah <span style='font-size:150%'><b>sorta</b></span> needed a blender.<br/><br/> Context: Sarah actually just wanted one very badly.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,14,0,test.itv.s,NULL,NULL,4,NULL,936
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,53,0,test.other.u,NULL,Anna <span style='font-size:50%'>sorta</span> borrowed a scarf.<br/><br/> Context: What Anna borrowed was actually more like a pashmina.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,53,0,test.other.u,NULL,NULL,4,NULL,719
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,27,0,test.other.s,NULL,Katie <span style='font-size:150%'><b>sorta</b></span> visited a castle.<br/><br/> Context: What Katie visited was actually more like a monastery.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,27,0,test.other.s,NULL,NULL,4,NULL,959
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,39,0,filler.itv.s,NULL,Ben <span style='font-size:150%'><b>sorta</b></span> hoped for the bicycle.<br/><br/> Context: What Ben hoped for was actually more like a tricyle.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,39,0,filler.itv.s,NULL,NULL,4,NULL,745
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,62,0,filler.other.s,NULL,Dan <span style='font-size:150%'><b>sorta</b></span> watched the movie.<br/><br/> Context: Dan actually just slept through it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,62,0,filler.other.s,NULL,NULL,4,NULL,890
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,15,0,test.itv.s,NULL,Sarah <span style='font-size:150%'><b>sorta</b></span> needed a blender.<br/><br/> Context: What Sarah needed was actually more like a food processor.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,15,0,test.itv.s,NULL,NULL,4,NULL,866
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,57,0,test.other.u,NULL,Claire <span style='font-size:50%'>sorta</span> listened to a symphony.<br/><br/> Context: What Claire listened to was actually more like a tone poem.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,57,0,test.other.u,NULL,NULL,4,NULL,814
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,44,0,test.cre.u,NULL,John <span style='font-size:50%'>sorta</span> built a barn.<br/><br/> Context: John actually just assembled one that had been prefabricated.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,44,0,test.cre.u,NULL,NULL,4,NULL,731
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,32,0,filler.itv.u,NULL,Greg <span style='font-size:50%'>sorta</span> was afraid of the puppy.<br/><br/> Context: Greg actually just was worried about his allergies.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,32,0,filler.itv.u,NULL,NULL,4,NULL,1172
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,31,0,filler.other.s,NULL,Laura <span style='font-size:150%'><b>sorta</b></span> wore the skirt.<br/><br/> Context: What Laura wore was actually more like a tutu.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,31,0,filler.other.s,NULL,NULL,4,NULL,889
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,26,0,test.other.s,NULL,Katie <span style='font-size:150%'><b>sorta</b></span> visited a castle.<br/><br/> Context: Katie actually just drove past it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,26,0,test.other.s,NULL,NULL,4,NULL,850
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,36,0,filler.itv.u,NULL,Amanda <span style='font-size:50%'>sorta</span> demanded the towel.<br/><br/> Context: Amanda actually just asked for it politely.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,36,0,filler.itv.u,NULL,NULL,4,NULL,741
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,41,0,filler.other.u,NULL,Leah <span style='font-size:50%'>sorta</span> washed the apple.<br/><br/> Context: What Leah washed was actually more like a pear.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,41,0,filler.other.u,NULL,NULL,4,NULL,893
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,69,0,filler.cre.u,NULL,Lars <span style='font-size:50%'>sorta</span> sculpted the mug.<br/><br/> Context: What Lars sculpted was actually more like a bowl.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,69,0,filler.cre.u,NULL,NULL,4,NULL,716
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,46,0,test.cre.s,NULL,Mary <span style='font-size:150%'><b>sorta</b></span> wrote a novel.<br/><br/> Context: Mary actually just co-authored it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,46,0,test.cre.s,NULL,NULL,4,NULL,2131
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,48,0,test.cre.u,NULL,Peter <span style='font-size:50%'>sorta</span> made a pizza.<br/><br/> Context: Peter actually just reheated it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,48,0,test.cre.u,NULL,NULL,4,NULL,717
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,68,0,filler.cre.u,NULL,Lars <span style='font-size:50%'>sorta</span> sculpted the mug.<br/><br/> Context: Lars actually just made the handle.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,68,0,filler.cre.u,NULL,NULL,4,NULL,741
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,29,0,filler.other.u,NULL,Tony <span style='font-size:50%'>sorta</span> hammered the nail.<br/><br/> Context: What Tony hammered was actually more like a tack.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,29,0,filler.other.u,NULL,NULL,4,NULL,932
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,17,0,test.itv.u,NULL,Andy <span style='font-size:50%'>sorta</span> begged for a trophy.<br/><br/> Context: What Andy begged for was actually more like a statuette.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,17,0,test.itv.u,NULL,NULL,4,NULL,762
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,64,0,filler.cre.u,NULL,Cynthia <span style='font-size:50%'>sorta</span> composed the sonnet.<br/><br/> Context: Cynthia actually just changed a few words in a sonnet by Shakespeare.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,64,0,filler.cre.u,NULL,NULL,4,NULL,907
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,74,0,filler.other.s,NULL,Brandon <span style='font-size:150%'><b>sorta</b></span> played the oboe.<br/><br/> Context: Brandon actually just made a few squeeking noises.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,74,0,filler.other.s,NULL,NULL,4,NULL,1011
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,33,0,filler.itv.u,NULL,Greg <span style='font-size:50%'>sorta</span> was afraid of the puppy.<br/><br/> Context: What Greg was afraid of was actually more like a full-grown miniature poodle.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,33,0,filler.itv.u,NULL,NULL,4,NULL,1153
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,16,0,test.itv.u,NULL,Andy <span style='font-size:50%'>sorta</span> begged for a trophy.<br/><br/> Context: Andy actually just asked what it would take to get one.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,16,0,test.itv.u,NULL,NULL,4,NULL,944
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,20,0,test.other.u,NULL,Chris <span style='font-size:50%'>sorta</span> threw away a pen.<br/><br/> Context: Chris actually just accidentally knocked it off his desk into the trash.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,20,0,test.other.u,NULL,NULL,4,NULL,867
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,24,0,test.other.u,NULL,Dennis <span style='font-size:50%'>sorta</span> yelled at a bee.<br/><br/> Context: Dennis actually just squealed in alarm.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,24,0,test.other.u,NULL,NULL,4,NULL,1149
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,35,0,filler.itv.s,NULL,Helen <span style='font-size:150%'><b>sorta</b></span> asked for the sandwich.<br/><br/> Context: What Helen asked for was actually more like a wrap.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,35,0,filler.itv.s,NULL,NULL,4,NULL,3116
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,42,0,filler.other.s,NULL,Craig <span style='font-size:150%'><b>sorta</b></span> folded the sheet.<br/><br/> Context: Craig actually just wadded it up.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,42,0,filler.other.s,NULL,NULL,4,NULL,54306
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,45,0,test.cre.u,NULL,John <span style='font-size:50%'>sorta</span> built a barn.<br/><br/> Context: What John built was actually more like a shack.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,45,0,test.cre.u,NULL,NULL,4,NULL,1303
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,49,0,test.cre.u,NULL,Peter <span style='font-size:50%'>sorta</span> made a pizza.<br/><br/> Context: What Peter made was actually more like a calzone.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,49,0,test.cre.u,NULL,NULL,4,NULL,776
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,38,0,filler.itv.s,NULL,Ben <span style='font-size:150%'><b>sorta</b></span> hoped for the bicycle.<br/><br/> Context: Ben actually just didn't mind one.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,38,0,filler.itv.s,NULL,NULL,4,NULL,951
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,65,0,filler.cre.u,NULL,Cynthia <span style='font-size:50%'>sorta</span> composed the sonnet.<br/><br/> Context: What Cynthia composed was actually more like free verse.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,65,0,filler.cre.u,NULL,NULL,4,NULL,823
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,47,0,test.cre.s,NULL,Mary <span style='font-size:150%'><b>sorta</b></span> wrote a novel.<br/><br/> Context: What Mary wrote was actually more like a novella.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,47,0,test.cre.s,NULL,NULL,4,NULL,818
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,34,0,filler.itv.s,NULL,Helen <span style='font-size:150%'><b>sorta</b></span> asked for the sandwich.<br/><br/> Context: Helen actually just said she was hungry for one.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,34,0,filler.itv.s,NULL,NULL,4,NULL,21
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,60,0,filler.other.u,NULL,Rebecca <span style='font-size:50%'>sorta</span> sat on the pillow.<br/><br/> Context: Rebecca actually just knelt on it.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,60,0,filler.other.u,NULL,NULL,4,NULL,782
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,56,0,test.other.u,NULL,Claire <span style='font-size:50%'>sorta</span> listened to a symphony.<br/><br/> Context: Claire actually just had it on in the background.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,56,0,test.other.u,NULL,NULL,4,NULL,722
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,75,0,filler.other.s,NULL,Brandon <span style='font-size:150%'><b>sorta</b></span> played the oboe.<br/><br/> Context: What Brandon played was actually more like an English horn.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,75,0,filler.other.s,NULL,NULL,4,NULL,1065
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,73,0,filler.other.u,NULL,Patricia <span style='font-size:50%'>sorta</span> held the monkey.<br/><br/> Context: What Patricia held was actually more like a chimpanzee.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,73,0,filler.other.u,NULL,NULL,4,NULL,907
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,28,0,filler.other.u,NULL,Tony <span style='font-size:50%'>sorta</span> hammered the nail.<br/><br/> Context: Tony actually just pounded at it with his shoe.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,28,0,filler.other.u,NULL,NULL,4,NULL,875
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,58,0,test.other.s,NULL,Roger <span style='font-size:150%'><b>sorta</b></span> sliced an orange.<br/><br/> Context: Roger actually just tore it into pieces.
+1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,58,0,test.other.s,NULL,NULL,4,NULL,940
