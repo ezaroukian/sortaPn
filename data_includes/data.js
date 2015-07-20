@@ -36,9 +36,11 @@ var defaults = [
         continueOnReturn: true,
     },
 	"Scale", {
-		startValue: 20, 
+		startValue: 0, 
 		endValue:100,
-		scaleLabels:true
+		scaleLabels:true,
+		startColor:silver,
+		endColor:navy
 
     }
 ];
