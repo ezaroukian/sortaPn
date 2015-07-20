@@ -40,7 +40,8 @@ var defaults = [
 		scaleHeight: 10, 
 		buttonMessage: "Submit", 
 		startValue: 0, 
-		endValue:100
+		endValue:100,
+		scaleLabels:true
     }
 ];
                               
