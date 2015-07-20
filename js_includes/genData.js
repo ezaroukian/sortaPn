@@ -221,6 +221,8 @@ function genQuestion(list,vType,e,qType)
     var v = list[1][vType];//creation/ITV=0, other=1
     var o = list[2];
     var q;
+	var block = 0;
+	block += 1;
     //make item name reflect test(+verb type)/filler/ex
     switch(qType) {
         case "ti":
@@ -262,7 +264,7 @@ function genQuestion(list,vType,e,qType)
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
     //return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
-	return [  [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ];
+	return [  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ];
 }
 
 function genPracticeQuestion(list,vType,e,qType)

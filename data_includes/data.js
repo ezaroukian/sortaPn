@@ -38,6 +38,7 @@ var defaults = [
 	"Scale", {
 		startValue: 0, 
 		endValue:100,
+		decimalPlaces:0,
 		scaleLabels:true,
 		startColor:"silver",
 		endColor:"navy"
