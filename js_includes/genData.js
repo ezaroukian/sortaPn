@@ -327,7 +327,7 @@ function genSent(s,v,o,e)
     {
         sortaForm = "<span style='font-size:50%'>sorta </span>";
     }
-    elif (e==2)
+    else if (e==2)
     {
         sortaForm = "<span style='font-size:150%'><b>sorta </b></span>";
     }
