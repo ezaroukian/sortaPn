@@ -256,12 +256,13 @@ function genQuestion(list,vType,e,qType)
      }
     var sent = genSent(s,v,o,e);
     var vHedge = s+" actually just "+list[3][vType]+".";
-    var oHedge = "What "+s+" "+v+" was actually more like "+list[4]+".";
+    var oHedge = "what "+s+" "+v+" was actually more like "+list[4]+".";
+	var pHedge = "the speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
     //return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
-	return [  [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }]  ];
+	return [  [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [q, "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ];
 }
 
 function genPracticeQuestion(list,vType,e,qType)
@@ -320,18 +321,17 @@ function genWrapper()
 
 function genSent(s,v,o,e)
 {
-    //Takes a subject, verb, object, and 1/0 for sorta emphasis, returns them as sentence
-    var sortaForm = "sorta";
-    if (e==1)
+    //Takes a subject, verb, object, and 0-2 for sorta emphasis, returns them as sentence
+    var sortaForm = "";
+    if(e==1)
     {
-        sortaForm = "<span style='font-size:150%'><b>sorta</b></span>";
+        sortaForm = "<span style='font-size:50%'>sorta </span>";
     }
-    else
+    elif (e==2)
     {
-        sortaForm = "<span style='font-size:50%'>sorta</span>";
+        sortaForm = "<span style='font-size:150%'><b>sorta </b></span>";
     }
-	//I removed sortaForm
-    return s+" "+v+" "+o+".";
+    return s+" "+sortaForm+v+" "+o+".";
 }
 
 
