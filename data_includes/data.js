@@ -3,11 +3,11 @@
 var manualSendResults = true;
 //var shuffleSequence =   seq("intro","inst",rshuffle(rshuffle("test.itv","test.cre","filler")),"sr","done");      
 var shuffleSequence =   seq(rshuffle(rshuffle("test.itv.s","test.cre.s","test.other.s",
-                                                                    "test.itv.u","test.cre.u","test.other.u",
-																	"test.itv.n","test.cre.n","test.other.n",
-                                                                    "filler.itv.s","filler.cre.s","filler.other.s",
-                                                                    "filler.itv.u","filler.cre.u","filler.other.u",
-																	"filler.itv.n","filler.cre.n","filler.other.n",)),"sr","done");      
+                                                "test.itv.u","test.cre.u","test.other.u",
+												"test.itv.n","test.cre.n","test.other.n",
+                                                "filler.itv.s","filler.cre.s","filler.other.s",
+                                                "filler.itv.u","filler.cre.u","filler.other.u",
+												"filler.itv.n","filler.cre.n","filler.other.n",)),"sr","done");      
          
 var defaults = [
     "Separator", {
