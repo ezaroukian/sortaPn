@@ -250,9 +250,12 @@ function genQuestion(list,vType,e,qType)
      //make item name reflect emphasis (stressed, unstressed)
     switch(e) {
         case 0: 
-            q+=".u";
+            q+=".n";
             break;
         case 1:
+            q+=".u";
+            break;
+		case 2: 
             q+=".s";
             break;
      }
@@ -313,6 +316,8 @@ function genWrapper()
     var listList = ITVSents.concat(creationSents);
     var vList = [0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1, 0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1];
     var eList = [0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1];
+	//var eList = [1,2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2];
+	//var eList = [2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0];
     var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc","fc","fc","fc" ];
     if (!!(listList.length==vList.length==eList.length==qList.length))
     {
