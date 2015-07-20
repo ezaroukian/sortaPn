@@ -34,6 +34,13 @@ var defaults = [
         hideProgressBar: false,
         countsForProgressBar: true,
         continueOnReturn: true,
+    },
+	"Scale", {
+		scaleWidth: 500, 
+		scaleHeight: 10, 
+		buttonMessage: "Submit", 
+		startValue: 0, 
+		endValue:100
     }
 ];
                               
