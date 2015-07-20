@@ -36,7 +36,7 @@ var defaults = [
         continueOnReturn: true,
     },
 	"Scale", {
-		startValue: 0, 
+		startValue: 20, 
 		endValue:100,
 		scaleLabels:true
 
