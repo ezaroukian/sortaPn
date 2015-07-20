@@ -7,7 +7,7 @@ var shuffleSequence =   seq(rshuffle(rshuffle("test.itv.s","test.cre.s","test.ot
 												"test.itv.n","test.cre.n","test.other.n",
                                                 "filler.itv.s","filler.cre.s","filler.other.s",
                                                 "filler.itv.u","filler.cre.u","filler.other.u",
-												"filler.itv.n","filler.cre.n","filler.other.n",)),"sr","done");      
+												"filler.itv.n","filler.cre.n","filler.other.n")),"sr","done");      
          
 var defaults = [
     "Separator", {
