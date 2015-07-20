@@ -264,7 +264,7 @@ function genQuestion(list,vType,e,qType)
     var oHedge = "what "+s+" "+v+" was actually more like "+list[4]+".";
 	var pHedge = "the speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
-    alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
+    //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
     //return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
 	//alert([  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ]);
