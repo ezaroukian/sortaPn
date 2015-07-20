@@ -39,8 +39,8 @@ var defaults = [
 		startValue: 0, 
 		endValue:100,
 		scaleLabels:true,
-		startColor:silver,
-		endColor:navy
+		startColor:"silver",
+		endColor:"navy"
 
     }
 ];
