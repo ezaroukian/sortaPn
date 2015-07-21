@@ -271,3 +271,39 @@
 1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,28,0,filler.other.u,NULL,NULL,4,NULL,875
 1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,58,0,test.other.s,NULL,Roger <span style='font-size:150%'><b>sorta</b></span> sliced an orange.<br/><br/> Context: Roger actually just tore it into pieces.
 1436450016,250421ad961d04b53d76569c0833fc8f,AcceptabilityJudgment,58,0,test.other.s,NULL,NULL,4,NULL,940
+#
+# Results on Tuesday July 21 2015 20:34:51 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+# Design number was non-random = 33
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. html.
+# 9. startValue.
+# 10. endValue.
+# 11. value.
+1437510891,29a41ae71f5aae36b357cb0bd6b03683,Scale,44,0,filler.itv.u,None,Sentence: Greg <span style="font-size:50%">sorta </span>was afraid of the puppy.<br><br> How surprised would you be to learn that what Greg actually was afraid of was a full-grown miniature poodle.,0,100,50
+#
+# Results on Tuesday July 21 2015 20:37:26 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+# Design number was non-random = 34
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. html.
+# 9. startValue.
+# 10. endValue.
+# 11. value.
+1437511046,29a41ae71f5aae36b357cb0bd6b03683,Scale,45,0,filler.itv.u,None,Sentence: Greg <span style="font-size:50%">sorta </span>was afraid of the puppy.<br><br> How surprised would you be to learn that the speaker is trying not to fully admit what Greg did%2C perhaps to avoid upsetting the person the speaker is talking to.,0,100,50

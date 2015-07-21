@@ -1442,7 +1442,8 @@ jqueryWidget: {
         var htop = (barTop - parseInt(Math.round((this.handleHeight - this.scaleHeight)/2.0)));
         this.$handle.css('left', hleft + 'px');
         this.$handle.css('top', htop + 'px');
-        this.$handleLabel.text(this.fraction.toFixed(this.decimalPlaces));
+        //this.$handleLabel.text(this.fraction.toFixed(this.decimalPlaces));
+		this.$handleLabel.text(((this.endValue-this.startValue)*this.fraction+this.startValue).toFixed(this.decimalPlaces));//to display the right value
         this.$handleLabel.css('left', parseInt(hleft + this.handleWidth/2 - this.$handleLabel.width()/2) + 'px');
         this.$handleLabel.css('top', parseInt(htop - this.handleHeight) + 'px');
         // Set color for handle.
@@ -1795,50 +1796,58 @@ var pr = "The whole sentence";
 var creationSents = [
 ["John", 
     ["built", "cleaned"], 
-    "a barn", 
-    ["assembled one that had been prefabricated", "swept"],
+    "barn", 
+    //["assembled one that had been prefabricated", "swept"],
+	["assemble OBJECT that had been prefabricated", "swept"],
     "a shack"
 ], 
 ["Mary",     
     ["wrote", "bought"], 
-    "a novel", 
-    ["co-authored it", "Her parents paid for it."], //Second doesn't work yet?
+    "novel", 
+    //["co-authored it", "Her parents paid for it."], //Second doesn't work yet?
+	["co-author OBJECT", "have her parents pay for it."], //Second doesn't work yet?
     "a novella"
 ], 
 ["Peter",    
     ["made", "ate"], 
-    "a pizza", 
-    ["reheated it", "spit half of it back up"], //Second doesn't work yet?
+    "pizza", 
+    //["reheated it", "spit half of it back up"], //Second doesn't work yet?
+	["reheat OBJECT", "spit half of it back up"], //Second doesn't work yet?
     "a calzone"
 ], 
 ["Sue",     
     ["drew", "petted"], 
-    "a wolf", 
-    ["traced it", "patted it with a brush"], 
+    "wolf", 
+    //["traced it", "patted it with a brush"], 
+	["trace OBJECT", "pat it with a brush"], 
     "a coyote"
 ],
 ["Anna",     
     ["knitted", "borrowed"], 
-    "a scarf", 
-    ["wove it on a little loom", "stole it"], 
+    "scarf", 
+    //["wove it on a little loom", "stole it"], 
+	["weave OBJECT on a little loom", "steal it"], 
     "a pashmina"
 ],
 ["Charlie", 
     ["dug", "fell in"], 
-    "a pit", 
-    ["cleared a bit of dirt from a pit that was already mostly dug out by the time he found it", "got his foot caught in it"], 
+    "pit", 
+    //["cleared a bit of dirt from a pit that was already mostly dug out by the time he found it", "got his foot caught in it"], 
+	["clear a bit of dirt from OBJECT that was already mostly dug out by the time he found it", "get his foot caught in it"], 
     "a medium-size hole"
 ],
 ["Claire",     
     ["composed", "listened to"], 
-    "a symphony", 
-    ["wrote the first movement", "had it on in the background"], 
+    "symphony", 
+    //["wrote the first movement", "had it on in the background"], 
+	["write the first movement of OBJECT", "have it on in the background"], 
     "a tone poem"
 ],
 ["Roger",     
     ["EMPTY", "sliced"], 
     "an orange", 
-    ["EMPTY", "tore it into pieces"], 
+    //["EMPTY", "tore it into pieces"], 
+	["EMPTY", "tear it into pieces"], 
     "a tangerine"
 ],
 
@@ -1846,37 +1855,43 @@ var creationSents = [
 ["Rebecca", 
     ["EMPTY", "sat on"], 
     "a pillow", 
-    ["EMPTY.", "knelt on it"], 
+    //["EMPTY.", "knelt on it"], 
+	["EMPTY.", "kneal on it"], 
     "a rug"
 ],
 ["Dan",     
     ["EMPTY", "watched"], 
     "a movie", 
-    ["EMPTY.", "slept through it"], 
+    //["EMPTY.", "slept through it"], 
+	["EMPTY.", "sleep through it"], 
     "a short film"
 ],
 ["Cynthia",  
     ["composed", "EMPTY"], 
     "a sonnet", 
-    ["changed a few words in a sonnet by Shakespeare", "EMPTY"], 
+    //["changed a few words in a sonnet by Shakespeare", "EMPTY"], 
+	["change a few words in a sonnet by Shakespeare", "EMPTY"], 
     "free verse"
 ],
 ["Duncan",  
     ["created", "EMPTY"], 
     "a mess", 
-    ["added a bit to what was already pretty untidy when he arrived", "EMPTY"], 
+    //["added a bit to what was already pretty untidy when he arrived", "EMPTY"], 
+	["add a bit to what was already pretty untidy when he arrived", "EMPTY"], 
     "a little clutter"
 ],
 ["Lars",  
     ["sculpted", "EMPTY"], 
     "a mug", 
-    ["made the handle", "EMPTY"], 
+    //["made the handle", "EMPTY"], 
+	["make the handle", "EMPTY"], 
     "a bowl"
 ],
 ["Martina",  
     ["invented", "EMPTY"], 
     "a soup", 
-    ["added cumin to her grandmother's recipe", "EMPTY"], 
+    //["added cumin to her grandmother's recipe", "EMPTY"], 
+	["add cumin to her grandmother's recipe", "EMPTY"], 
     "a stew"
 ],
 ["Patricia",  
@@ -1888,7 +1903,8 @@ var creationSents = [
 ["Brandon",  
     ["EMPTY", "played"], 
     "an oboe", 
-    ["EMPTY", "made a few squeeking noises"], 
+    //["EMPTY", "made a few squeeking noises"], 
+	["EMPTY", "make a few squeeking noises"], 
     "an English horn"
 ]
 ];
@@ -1896,50 +1912,50 @@ var creationSents = [
 var ITVSents = [
 ["Bob", 
     ["wanted", "refused"], 
-    "a raise", 
+    "raise", 
     ["wondered whether he needed a raise","forget to sign the necessary paperwork"], 
     "a bonus"
 ], 
 ["Sarah", 
     ["needed", "tried to find"], 
-    "a blender", 
-    ["wanted one very badly","not put much effort into it"], 
+    "blender", 
+    ["wanted OBJECT very badly","not put much effort into OBJECT"], 
     "a food processor"
 ], 
 ["Andy", 
     ["begged for", "earned"], 
-    "a trophy", 
-    ["asked what it would take to get one", "cheated a little, but less than most people"], 
+    "trophy", 
+    ["asked what it would take to get OBJECT", "cheated a little, but less than most people - WHAT ABOUT OBJECT?"], 
     "a statuette"
 ], 
 ["Sam", 
     ["looked for", "climbed"], 
-    "a mountain", 
-    ["took a quick glance at an outdated map", "took a ski lift most of the way"], 
+    "mountain", 
+    ["took a quick glance at an outdated map - WHAT ABOUT OBJECT?", "took a ski lift most of the way up OBJECT"], 
     "a big hill"
 ],
 ["Chris", 
     ["rummaged around for", "threw away"], 
-    "a pen", 
-    ["took a quick glance under the bed", "accidentally knocked it off his desk into the trash"], 
+    "pen", 
+    ["took a quick glance under the bed", "accidentally knocked OBJECT off his desk into the trash"], 
     "a marker"
 ],
 ["Irene", 
     ["prayed for", "flew through"], 
-    "a storm", 
-    ["hoped for one", "flew through the very edge of it"], 
+    "storm", 
+    ["hoped for OBJECT", "flew through the very edge of OBJECT"], 
     "a bit of rain"
 ],
 ["Dennis", 
     ["was afraid of", "yelled at"], 
-    "a bee", 
+    "bee", 
     ["worried about his insect allergy", "squealed in alarm"], 
     "a wasp"
 ],
 ["Katie", 
     ["EMPTY", "visited"], 
-    "a castle", 
-    ["EMPTY", "drove past it"], 
+    "castle", 
+    ["EMPTY", "drove past OBJECT"], 
     "a monastery"
 ],
 
@@ -1947,55 +1963,55 @@ var ITVSents = [
 ["Tony", 
     ["EMPTY", "hammered"], 
     "a nail", 
-    ["EMPTY", "pounded at it with his shoe"], 
-    "a tack"
+    ["EMPTY", "pounded at OBJECT with his shoe"], 
+    "tack"
 ],
 ["Laura", 
     ["EMPTY", "wore"], 
-    "a skirt", 
+    "skirt", 
     ["EMPTY", "used it as a shawl"], 
     "a tutu"
 ],
 ["Greg", 
     ["was afraid of", "EMPTY"], 
-    "a puppy", 
+    "puppy", 
     ["was worried about his allergies", "EMPTY"], 
     "a full-grown miniature poodle"
 ],
 ["Helen", 
     ["asked for", "EMPTY"], 
-    "a sandwich", 
-    ["said she was hungry for one", "EMPTY"], 
+    "sandwich", 
+    ["said she was hungry for OBJECT", "EMPTY"], 
     "a wrap"
 ],
 ["Amanda",  
     ["demanded", "EMPTY"], 
-    "a towel", 
-    ["asked for it politely", "EMPTY"], 
+    "towel", 
+    ["asked for OBJECT politely", "EMPTY"], 
     "a washcloth"
 ],
 ["Ben",  
     ["hoped for", "EMPTY"], 
-    "a bicycle", 
-    ["didn't mind one", "EMPTY"], 
+    "bicycle", 
+    ["didn't mind OBJECT", "EMPTY"], 
     "a tricyle"
 ],
 ["Leah",  
     ["EMPTY", "washed"], 
     "an apple", 
-    ["EMPTY", "rubbed it on her shirt"], 
+    ["EMPTY", "rubbed OBJECT on her shirt"], 
     "a pear"
 ],
 ["Craig",  
     ["EMPTY", "folded"], 
-    "a sheet", 
-    ["EMPTY", "wadded it up"], 
+    "sheet", 
+    ["EMPTY", "wadded OBJECT up"], 
     "a tarp"
 ] 
 ];
 
 var exSents = [
-["Steve",
+[	"Steve",
     ["kicked", "EMPTY"],
     "the ball",
     ["nudged it", "EMPTY"],
@@ -2005,6 +2021,28 @@ var exSents = [
 
 
 
+//Trying to build a better list
+
+function buildList(list){
+	for(i=0;i<list.length;i++){
+		console.log(list[i][3][0]);
+		var rep1 = list[i][3][0].replace("OBJECT", "a "+list[i][2]);
+		var rep2 = list[i][3][0].replace("OBJECT", "the "+list[i][2]);
+		list[i][3] = [rep1,rep2,list[i][3][1]];
+		console.log(list[i][3][0]);
+		
+	}
+	
+}
+
+buildList(creationSents);
+buildList(ITVSents);
+buildList(exSents);
+//End trying to build a better list
+
+
+
+var block = 0;
 function genQuestion(list,vType,e,qType)
 {
     //takes a list (with subject, verbs, object, and hedges), a vType (creation/ITV=0, other=1), emphasis (0,1), a qType (test=ti,tc filler=f) returns Question item for IBEX
@@ -2012,6 +2050,8 @@ function genQuestion(list,vType,e,qType)
     var v = list[1][vType];//creation/ITV=0, other=1
     var o = list[2];
     var q;
+	
+	block += 1;
     //make item name reflect test(+verb type)/filler/ex
     switch(qType) {
         case "ti":
@@ -2039,19 +2079,27 @@ function genQuestion(list,vType,e,qType)
      //make item name reflect emphasis (stressed, unstressed)
     switch(e) {
         case 0: 
-            q+=".u";
+            q+=".n";
             break;
         case 1:
+            q+=".u";
+            break;
+		case 2: 
             q+=".s";
             break;
      }
     var sent = genSent(s,v,o,e);
-    var vHedge = s+" actually just "+list[3][vType]+".";
-    var oHedge = "What "+s+" "+v+" was actually more like "+list[4]+".";
+    //var vHedge = s+" actually just "+list[3][vType]+".";
+	var vHedge = "what "+s+" actually did was "+list[3][vType]+".";
+    var oHedge = "what "+s+" actually "+v+" was "+list[4]+".";
+	var pHedge = "the speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
-    return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
+    //return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
+	//alert([  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ]);
+	
+	return [  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }]  ];
 }
 
 function genPracticeQuestion(list,vType,e,qType)
@@ -2097,7 +2145,10 @@ function genWrapper()
     //return genQuestionList(ITVSents.concat(creationSents), [0,0,0,0,1,1,1,1,1,1,0,0, 0,0,0,0,1,1,1,1,1,1,0,0], [0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1], ["f","f","f","f","f","f","f","f","f","f","f","f", "f","f","f","f","f","f","f","f","f","f","f","f"]);
     var listList = ITVSents.concat(creationSents);
     var vList = [0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1, 0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1];
-    var eList = [0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1];
+	var eList = [0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1];
+    //var eList = [0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1];
+	//var eList = [1,2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2];
+	//var eList = [2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0];
     var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc","fc","fc","fc" ];
     if (!!(listList.length==vList.length==eList.length==qList.length))
     {
@@ -2110,18 +2161,18 @@ function genWrapper()
 
 function genSent(s,v,o,e)
 {
-    //Takes a subject, verb, object, and 1/0 for sorta emphasis, returns them as sentence
-    var sortaForm = "sorta";
-    if (e==1)
+    //Takes a subject, verb, object, and 0-2 for sorta emphasis, returns them as sentence
+    var sortaForm = "";
+    if(e==1)
     {
-        sortaForm = "<span style='font-size:150%'><b>sorta</b></span>";
+        //sortaForm = "<span style='font-size:50%'>sorta </span>";
+		sortaForm = "sorta";
     }
-    else
+    else if (e==2)
     {
-        sortaForm = "<span style='font-size:50%'>sorta</span>";
+        sortaForm = "<span style='font-size:150%'><b>sorta </b></span>";
     }
-	//I removed sortaForm
-    return s+" "+v+" "+o+".";
+    return s+" "+sortaForm+v+" "+o+".";
 }
 
 
@@ -2137,29 +2188,7 @@ function genFiller(np)
 
 
 //for browser stuff
-function genList(list)
-{
-    //Takes a list and makes a pretty output for the browser, out of date
-    var counter = 0;
-    var output = "";
-    for (i=0; i<list.length; i++)
-    {
-        counter++;
-        var vtype = 0;//to make drafting easier
-        var emph = 0;//to make drafting easier
-    
-        output+=counter+". "+genSent(list[i][0],list[i][1][vtype],list[i][2],emph)+"<br><br><input type='radio' name='p' value='1' class='obligatory'>"+list[i][1][vtype]+": e.g., "+list[i][3][vtype]+
-        "<br><input type='radio' name='p' value='2'>"+list[i][2]+": e.g., "+list[i][4]+"<br> <br>";
-        
-        counter++;
-        var vtype = 1;//to make drafting easier
-        var emph = 1;//to make drafting easier
-        
-        output+=counter+". "+genSent(list[i][0],list[i][1][vtype],list[i][2],emph)+"<br><br><input type='radio' name='p' value='1' class='obligatory'>"+list[i][1][vtype]+": e.g., "+list[i][3][vtype]+
-        "<br><input type='radio' name='p' value='2'>"+list[i][2]+": e.g., "+list[i][4]+"<br> <br>";
-    }
-    return output;
-}
+
 
 function makeFillerList(list)
 {
