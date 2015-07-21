@@ -5,49 +5,57 @@ var creationSents = [
 ["John", 
     ["built", "cleaned"], 
     "a barn", 
-    ["assembled one that had been prefabricated", "swept"],
+    //["assembled one that had been prefabricated", "swept"],
+	["assemble one that had been prefabricated", "swept"],
     "a shack"
 ], 
 ["Mary",     
     ["wrote", "bought"], 
     "a novel", 
-    ["co-authored it", "Her parents paid for it."], //Second doesn't work yet?
+    //["co-authored it", "Her parents paid for it."], //Second doesn't work yet?
+	["co-author it", "have her parents paid for it."], //Second doesn't work yet?
     "a novella"
 ], 
 ["Peter",    
     ["made", "ate"], 
     "a pizza", 
-    ["reheated it", "spit half of it back up"], //Second doesn't work yet?
+    //["reheated it", "spit half of it back up"], //Second doesn't work yet?
+	["reheat it", "spit half of it back up"], //Second doesn't work yet?
     "a calzone"
 ], 
 ["Sue",     
     ["drew", "petted"], 
     "a wolf", 
-    ["traced it", "patted it with a brush"], 
+    //["traced it", "patted it with a brush"], 
+	["trace it", "pat it with a brush"], 
     "a coyote"
 ],
 ["Anna",     
     ["knitted", "borrowed"], 
     "a scarf", 
-    ["wove it on a little loom", "stole it"], 
+    //["wove it on a little loom", "stole it"], 
+	["weave it on a little loom", "steal it"], 
     "a pashmina"
 ],
 ["Charlie", 
     ["dug", "fell in"], 
     "a pit", 
-    ["cleared a bit of dirt from a pit that was already mostly dug out by the time he found it", "got his foot caught in it"], 
+    //["cleared a bit of dirt from a pit that was already mostly dug out by the time he found it", "got his foot caught in it"], 
+	["clear a bit of dirt from a pit that was already mostly dug out by the time he found it", "get his foot caught in it"], 
     "a medium-size hole"
 ],
 ["Claire",     
     ["composed", "listened to"], 
     "a symphony", 
-    ["wrote the first movement", "had it on in the background"], 
+    //["wrote the first movement", "had it on in the background"], 
+	["write the first movement", "have it on in the background"], 
     "a tone poem"
 ],
 ["Roger",     
     ["EMPTY", "sliced"], 
     "an orange", 
-    ["EMPTY", "tore it into pieces"], 
+    //["EMPTY", "tore it into pieces"], 
+	["EMPTY", "tear it into pieces"], 
     "a tangerine"
 ],
 
@@ -55,37 +63,43 @@ var creationSents = [
 ["Rebecca", 
     ["EMPTY", "sat on"], 
     "a pillow", 
-    ["EMPTY.", "knelt on it"], 
+    //["EMPTY.", "knelt on it"], 
+	["EMPTY.", "kneal on it"], 
     "a rug"
 ],
 ["Dan",     
     ["EMPTY", "watched"], 
     "a movie", 
-    ["EMPTY.", "slept through it"], 
+    //["EMPTY.", "slept through it"], 
+	["EMPTY.", "sleep through it"], 
     "a short film"
 ],
 ["Cynthia",  
     ["composed", "EMPTY"], 
     "a sonnet", 
-    ["changed a few words in a sonnet by Shakespeare", "EMPTY"], 
+    //["changed a few words in a sonnet by Shakespeare", "EMPTY"], 
+	["change a few words in a sonnet by Shakespeare", "EMPTY"], 
     "free verse"
 ],
 ["Duncan",  
     ["created", "EMPTY"], 
     "a mess", 
-    ["added a bit to what was already pretty untidy when he arrived", "EMPTY"], 
+    //["added a bit to what was already pretty untidy when he arrived", "EMPTY"], 
+	["add a bit to what was already pretty untidy when he arrived", "EMPTY"], 
     "a little clutter"
 ],
 ["Lars",  
     ["sculpted", "EMPTY"], 
     "a mug", 
-    ["made the handle", "EMPTY"], 
+    //["made the handle", "EMPTY"], 
+	["make the handle", "EMPTY"], 
     "a bowl"
 ],
 ["Martina",  
     ["invented", "EMPTY"], 
     "a soup", 
-    ["added cumin to her grandmother's recipe", "EMPTY"], 
+    //["added cumin to her grandmother's recipe", "EMPTY"], 
+	["add cumin to her grandmother's recipe", "EMPTY"], 
     "a stew"
 ],
 ["Patricia",  
@@ -97,7 +111,8 @@ var creationSents = [
 ["Brandon",  
     ["EMPTY", "played"], 
     "an oboe", 
-    ["EMPTY", "made a few squeeking noises"], 
+    //["EMPTY", "made a few squeeking noises"], 
+	["EMPTY", "make a few squeeking noises"], 
     "an English horn"
 ]
 ];
@@ -261,7 +276,7 @@ function genQuestion(list,vType,e,qType)
      }
     var sent = genSent(s,v,o,e);
     //var vHedge = s+" actually just "+list[3][vType]+".";
-	var vHedge = "what"+s+" actually did was "+list[3][vType]+".";
+	var vHedge = "what "+s+" actually did was "+list[3][vType]+".";
     var oHedge = "what "+s+" actually "+v+" was "+list[4]+".";
 	var pHedge = "the speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
