@@ -260,8 +260,9 @@ function genQuestion(list,vType,e,qType)
             break;
      }
     var sent = genSent(s,v,o,e);
-    var vHedge = s+" actually just "+list[3][vType]+".";
-    var oHedge = "what "+s+" "+v+" was actually more like "+list[4]+".";
+    //var vHedge = s+" actually just "+list[3][vType]+".";
+	var vHedge = "what"+s+" actually did was "+list[3][vType]+".";
+    var oHedge = "what "+s+" actually "+v+" was "+list[4]+".";
 	var pHedge = "the speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
