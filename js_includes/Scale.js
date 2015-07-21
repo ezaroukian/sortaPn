@@ -250,7 +250,8 @@ jqueryWidget: {
         var htop = (barTop - parseInt(Math.round((this.handleHeight - this.scaleHeight)/2.0)));
         this.$handle.css('left', hleft + 'px');
         this.$handle.css('top', htop + 'px');
-        this.$handleLabel.text(this.fraction.toFixed(this.decimalPlaces));
+        //this.$handleLabel.text(this.fraction.toFixed(this.decimalPlaces));
+		this.$handleLabel.text((this.endValue-this.startValue)*this.fraction.toFixed(this.decimalPlaces)+this.startValue);
         this.$handleLabel.css('left', parseInt(hleft + this.handleWidth/2 - this.$handleLabel.width()/2) + 'px');
         this.$handleLabel.css('top', parseInt(htop - this.handleHeight) + 'px');
         // Set color for handle.
