@@ -213,7 +213,7 @@ var exSents = [
 ];
 
 
-
+var block = 0;
 function genQuestion(list,vType,e,qType)
 {
     //takes a list (with subject, verbs, object, and hedges), a vType (creation/ITV=0, other=1), emphasis (0,1), a qType (test=ti,tc filler=f) returns Question item for IBEX
@@ -221,6 +221,8 @@ function genQuestion(list,vType,e,qType)
     var v = list[1][vType];//creation/ITV=0, other=1
     var o = list[2];
     var q;
+	
+	block += 1;
     //make item name reflect test(+verb type)/filler/ex
     switch(qType) {
         case "ti":
@@ -248,19 +250,26 @@ function genQuestion(list,vType,e,qType)
      //make item name reflect emphasis (stressed, unstressed)
     switch(e) {
         case 0: 
-            q+=".u";
+            q+=".n";
             break;
         case 1:
+            q+=".u";
+            break;
+		case 2: 
             q+=".s";
             break;
      }
     var sent = genSent(s,v,o,e);
     var vHedge = s+" actually just "+list[3][vType]+".";
-    var oHedge = "What "+s+" "+v+" was actually more like "+list[4]+".";
+    var oHedge = "what "+s+" "+v+" was actually more like "+list[4]+".";
+	var pHedge = "the speaker is trying not to fully admit what "+s+" did, perhaps to avoid upsetting the person the speaker is talking to.";
 
     //alert('["'+q+'", "Question", {q: "'+sent+'", as: ['+'"'+vHedge+'"'+', '+'"'+oHedge+'"'+', '+'"'+pHedge+'"'+']}]');
     //return [q, "Question", {"q": "<p style='font-size:150%'>"+sent+"</p><br/><p style='font-size:100%'>What is the speaker hedging?</p></br>", "as": [vHedge, oHedge, pHedge]}];
-    return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
+    //return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
+	//alert([  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ]);
+	
+	return [  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ];
 }
 
 function genPracticeQuestion(list,vType,e,qType)
@@ -306,7 +315,9 @@ function genWrapper()
     //return genQuestionList(ITVSents.concat(creationSents), [0,0,0,0,1,1,1,1,1,1,0,0, 0,0,0,0,1,1,1,1,1,1,0,0], [0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1], ["f","f","f","f","f","f","f","f","f","f","f","f", "f","f","f","f","f","f","f","f","f","f","f","f"]);
     var listList = ITVSents.concat(creationSents);
     var vList = [0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1, 0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1];
-    var eList = [0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1, 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1];
+    var eList = [0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1];
+	//var eList = [1,2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2];
+	//var eList = [2,0,1,2,0,1,2,0,1,2,0,1,2,0, 1,2,0,1,2,0,1,2,0,1,2,0,1,2,0,1,2,0];
     var qList = ["ti","ti","ti","ti","ti","ti","ti","ti","fi","fi","fi","fi","fi","fi","fi","fi", "tc","tc","tc","tc","tc","tc","tc","tc","fc","fc","fc","fc","fc","fc","fc","fc" ];
     if (!!(listList.length==vList.length==eList.length==qList.length))
     {
@@ -319,18 +330,17 @@ function genWrapper()
 
 function genSent(s,v,o,e)
 {
-    //Takes a subject, verb, object, and 1/0 for sorta emphasis, returns them as sentence
-    var sortaForm = "sorta";
-    if (e==1)
+    //Takes a subject, verb, object, and 0-2 for sorta emphasis, returns them as sentence
+    var sortaForm = "";
+    if(e==1)
     {
-        sortaForm = "<span style='font-size:150%'><b>sorta</b></span>";
+        sortaForm = "<span style='font-size:50%'>sorta </span>";
     }
-    else
+    else if (e==2)
     {
-        sortaForm = "<span style='font-size:50%'>sorta</span>";
+        sortaForm = "<span style='font-size:150%'><b>sorta </b></span>";
     }
-	//I removed sortaForm
-    return s+" "+v+" "+o+".";
+    return s+" "+sortaForm+v+" "+o+".";
 }
 
 
