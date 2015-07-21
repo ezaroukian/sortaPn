@@ -6,7 +6,7 @@ var creationSents = [
     ["built", "cleaned"], 
     "a barn", 
     //["assembled one that had been prefabricated", "swept"],
-	["assemble one that had been prefabricated", "swept"],
+	[`assemble ${o} that had been prefabricated`, "swept"],
     "a shack"
 ], 
 ["Mary",     
