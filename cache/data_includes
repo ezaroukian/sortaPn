@@ -1,13 +1,12 @@
 //genData.js makes all the test/filler items that are added via genWrapper()
 
 var manualSendResults = true;
-//var shuffleSequence =   seq("intro","inst",rshuffle(rshuffle("test.itv","test.cre","filler")),"sr","done");      
-var shuffleSequence =   seq(rshuffle(rshuffle("test.itv.s","test.cre.s","test.other.s",
+var shuffleSequence =   seq("inst",rshuffle(rshuffle("test.itv.s","test.cre.s","test.other.s",
                                                 "test.itv.u","test.cre.u","test.other.u",
 												"test.itv.n","test.cre.n","test.other.n",
                                                 "filler.itv.s","filler.cre.s","filler.other.s",
                                                 "filler.itv.u","filler.cre.u","filler.other.u",
-												"filler.itv.n","filler.cre.n","filler.other.n")),"sr","done");      
+												"filler.itv.n","filler.cre.n","filler.other.n")),"end","sr","code");      
          
 var defaults = [
     "Separator", {
@@ -67,54 +66,27 @@ var items = [
     // NOTE: You could also use the 'Message' controller for the experiment intro (this provides a simple
     // consent checkbox).
     
-    ["intro", "Form", {
-        html: { include: "intro.html" },
-        hideProgressBar: true,
-        countsForProgressBar: false,
-    } ],
-    
-    
-    ["done", "Exit", {
-        html: { include: "done.html" },
-    } ],
     
     ["inst", "Form", {
         html: {include: "gen_instructions.html"},
         hideProgressBar: true,
         countsForProgressBar: false, 
     }], 
-    ["inst", "Form", {
-        html: {include: "gen_instructions2.html"},
-        hideProgressBar: true,
-        countsForProgressBar: false,
-    }],
-    ["inst", "Form", {
-        html: {include: "gen_instructions3.html"},
-        hideProgressBar: true,
-        countsForProgressBar: false,
-    }],
-    ["instOld", "PracticeQuestion", {
-        q: "The soccer player <b>sorta</b> kicked the ball.<br/><br/>What is the speaker hedging?",
-        as: ['the verb "kicked": e.g., The player only nudged the ball.','the noun "the ball": e.g., It was actually a balloon.', "the whole sentence: e.g., The speaker knows the soccer player wasn't supposed to touch the ball and doesn't want to get her in trouble."],
-        html: {include: "gen_instructions4.html"},
-        hideProgressBar: true,
-        countsForProgressBar: false,
-    }],    
-    ["instOld", "PracticeQuestion", {
-        q: "The soccer player <font size=1>sorta</font> kicked the ball.<br/><br/>What is the speaker hedging?",
-        as: ['the verb "kicked": e.g., The player only nudged the ball.','the noun "the ball": e.g., It was actually a balloon.', "the whole sentence: e.g., The speaker knows the soccer player wasn't supposed to touch the ball and doesn't want to get her in trouble."],
-        html: {include: "gen_instructions4.html"},
-        hideProgressBar: true,
-        countsForProgressBar: false,
-    }], 
-    ["instEnd","Message", {html: { include: "intro_end.html" }},],
+    ["inst","Message", {html: { include: "intro_end.html" }},],
 
     //["test", "Question", {q: "Bob <font size=1>sorta</font> wanted a raise.", as: ["wanted: He didn't want it all that much.", "a raise: It was actually a bonus.", "polite reason"]}], ["filler", "Question", {q: "Sarah <b>sorta</b> tried to find a bicycle.", as: ["tried to find: She didn't put much effort into it.", "a bicycle: It was actually a tricycle.", "polite reason"]}], 
 
-	["slider", "Message", {html: { include: "slider.html" }}]
-	
-	
-    ];
+	["slider", "Message", {html: { include: "slider.html" }}],
+	["end", "Form", {
+        html: {include: "endSurvey.html"},
+        hideProgressBar: true,
+        countsForProgressBar: false, 
+    }], 
+	["code","Message", {
+		html: { include: "code.html" },
+		transfer: null,
+    }]
+];
                               
 items = items.concat(exWrapper());
 items = items.concat(genWrapper()); 

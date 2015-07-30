@@ -327,7 +327,7 @@ function genQuestion(list,vType,e,qType)
     //return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
 	//alert([  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ]);
 	
-	return [  [ [q, block], "Scale", {html: "Someone reoprts to you: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}],[[q,block], "Scale", {html: "Someone reports to you: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }]  ];//Latin square for definiteness
+	return [  [ [q, block], "Scale", {html: "Someone reports to you: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}],[[q,block], "Scale", {html: "Someone reports to you: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }]  ];//Latin square for definiteness
 }
 
 function genPracticeQuestion(list,vType,e,qType)
