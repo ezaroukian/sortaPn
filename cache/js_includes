@@ -1951,14 +1951,14 @@ var ITVSents = [
     ["prayed for", "flew through"],
 	["pray for", "fly through"],	
     "a storm", 
-    ["hope for OBJECT", "flew through the very edge of OBJECT"], 
+    ["hope for OBJECT", "fly through the very edge of OBJECT"], 
     "a bit of rain"
 ],
 ["Dennis", 
     ["was afraid of", "yelled at"],
-	["be afraid of", "yelled at"],	
+	["be afraid of", "yell at"],	
     "a bee", 
-    ["worry about his allergy to OBJECT", "squealed in alarm because of OBJECT"], 
+    ["worry about his allergy to OBJECT", "squeal in alarm because of OBJECT"], 
     "a wasp"
 ],
 ["Katie", 
@@ -1974,8 +1974,8 @@ var ITVSents = [
     ["EMPTY", "hammered"], 
     ["EMPTY", "hammer"], 
     "a nail", 
-    ["EMPTY", "pounded at OBJECT with his shoe"], 
-    "tack"
+    ["EMPTY", "pound at OBJECT with his shoe"], 
+    "a tack"
 ],
 ["Laura", 
     ["EMPTY", "wore"],
@@ -2039,15 +2039,14 @@ var exSents = [
 
 
 
-//Trying to build a better list
-
+//Adds the objects in
 function buildList(list){
 	for(i=0;i<list.length;i++){
 		//console.log(list[i][3][0]);
-		var rep1 = list[i][4][0].replace("OBJECT", list[i][3]);
-		var rep2 = list[i][4][1].replace("OBJECT", list[i][3]);
+		var rep1 = list[i][4][0].replace("OBJECT", list[i][3]);//cre/ITV sent
+		var rep2 = list[i][4][1].replace("OBJECT", list[i][3]);//other sent
 		list[i][4] = [rep1,rep2];
-		console.log(list[i][4]);
+		//console.log(list[i][4]);
 		
 	}
 	
@@ -2120,7 +2119,7 @@ function genQuestion(list,vType,e,qType)
     //return [  [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+vHedge}, "q":"How acceptable is the sentence as a description of the context?"}], [q, "AcceptabilityJudgment", {"s": {html: "Sentence: "+sent+"<br/><br/> Context: "+oHedge}, "q":"How acceptable is the sentence as a description of the context?"}]  ];
 	//alert([  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+pHedge }]  ]);
 	
-	return [  [ [q, block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}], [[q,block], "Scale", {html: "Sentence: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }]  ];
+	return [  [ [q, block], "Scale", {html: "Someone reoprts to you: "+sent+"<br/><br/> How surprised would you be to learn that "+vHedge}],[[q,block], "Scale", {html: "Someone reports to you: "+sent+"<br/><br/> How surprised would you be to learn that "+oHedge }]  ];//Latin square for definiteness
 }
 
 function genPracticeQuestion(list,vType,e,qType)

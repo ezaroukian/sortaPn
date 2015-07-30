@@ -307,3 +307,150 @@
 # 10. endValue.
 # 11. value.
 1437511046,29a41ae71f5aae36b357cb0bd6b03683,Scale,45,0,filler.itv.u,None,Sentence: Greg <span style="font-size:50%">sorta </span>was afraid of the puppy.<br><br> How surprised would you be to learn that the speaker is trying not to fully admit what Greg did%2C perhaps to avoid upsetting the person the speaker is talking to.,0,100,50
+#
+# Results on Thursday July 30 2015 02:44:05 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0
+# Design number was non-random = 35
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. html.
+# 9. startValue.
+# 10. endValue.
+# 11. value.
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,31,0,filler.other.n,12,Someone reoprts: Laura wore the skirt.<br><br> How surprised would you be to learn that what Laura did was use a skirt as a shawl?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,47,0,test.cre.s,20,Someone reoprts: Mary recently wrote a novel.<br><br> How surprised would you be to learn that what Mary did was co-author a novel?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,71,0,filler.cre.s,32,Someone reoprts: Martina recently invented the soup.<br><br> How surprised would you be to learn that what Martina did was add cumin to a soup her grandmother made?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,54,0,test.other.s,23,Someone reports: Anna recently borrowed a scarf.<br><br> How surprised would you be to learn that what Anna did was borrow a pashmina?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,42,0,filler.other.s,17,Someone reports: Leah recently washed the apple.<br><br> How surprised would you be to learn that what Leah did was wash a pear?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,35,0,filler.itv.s,14,Someone reoprts: Helen recently asked for the sandwich.<br><br> How surprised would you be to learn that what Helen did was say she was hungry for a sandwich?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,27,0,test.other.u,10,Someone reoprts: Katie sorta visited a castle.<br><br> How surprised would you be to learn that what Katie did was drive past a castle?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,23,0,test.other.s,8,Someone reoprts: Irene recently flew through a storm.<br><br> How surprised would you be to learn that what Irene did was flew through the very edge of a storm?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,59,0,test.other.s,26,Someone reoprts: Roger recently sliced an orange.<br><br> How surprised would you be to learn that what Roger did was tear an orange into pieces?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,74,0,filler.other.n,33,Someone reports: Patricia held the monkey.<br><br> How surprised would you be to learn that what Patricia did was hold a chimpanzee?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,15,0,test.itv.u,4,Someone reoprts: Sarah sorta needed a blender.<br><br> How surprised would you be to learn that what Sarah did was want a blender very badly?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,67,0,filler.cre.n,30,Someone reoprts: Duncan created the mess.<br><br> How surprised would you be to learn that what Duncan did was add a bit to a mess that was already there when he arrived?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,34,0,filler.itv.u,13,Someone reports: Greg sorta was afraid of the puppy.<br><br> How surprised would you be to learn that what Greg did was be afraid of a full-grown miniature poodle?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,38,0,filler.itv.n,15,Someone reports: Amanda demanded the towel.<br><br> How surprised would you be to learn that what Amanda did was demand a washcloth?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,30,0,filler.other.s,11,Someone reports: Tony recently hammered the nail.<br><br> How surprised would you be to learn that what Tony did was hammer tack?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,63,0,filler.other.u,28,Someone reoprts: Dan sorta watched the movie.<br><br> How surprised would you be to learn that what Dan did was sleep through a movie?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,43,0,filler.other.n,18,Someone reoprts: Craig folded the sheet.<br><br> How surprised would you be to learn that what Craig did was wad a sheet up?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,51,0,test.cre.u,22,Someone reoprts: Sue sorta drew a wolf.<br><br> How surprised would you be to learn that what Sue did was trace a wolf?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,70,0,filler.cre.u,31,Someone reports: Lars sorta sculpted the mug.<br><br> How surprised would you be to learn that what Lars did was sculpt a bowl?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,50,0,test.cre.n,21,Someone reports: Peter made a pizza.<br><br> How surprised would you be to learn that what Peter did was make a calzone?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,14,0,test.itv.n,3,Someone reports: Bob wanted a raise.<br><br> How surprised would you be to learn that what Bob did was want a bonus?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,22,0,test.other.u,7,Someone reports: Chris sorta threw away a pen.<br><br> How surprised would you be to learn that what Chris did was throw away a marker?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,55,0,test.other.n,24,Someone reoprts: Charlie fell in a pit.<br><br> How surprised would you be to learn that what Charlie did was get his foot caught in a pit?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,75,0,filler.other.u,34,Someone reoprts: Brandon sorta played the oboe.<br><br> How surprised would you be to learn that what Brandon did was make a few squeeking noises on an oboe?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,58,0,test.other.u,25,Someone reports: Claire sorta listened to a symphony.<br><br> How surprised would you be to learn that what Claire did was listen to a tone poem?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,39,0,filler.itv.u,16,Someone reoprts: Ben sorta hoped for the bicycle.<br><br> How surprised would you be to learn that what Ben did was not mind a bicycle?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,66,0,filler.cre.s,29,Someone reports: Cynthia recently composed the sonnet.<br><br> How surprised would you be to learn that what Cynthia did was compose free verse?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,18,0,test.itv.s,5,Someone reports: Andy recently begged for a trophy.<br><br> How surprised would you be to learn that what Andy did was beg for a statuette?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,26,0,test.other.n,9,Someone reports: Dennis yelled at a bee.<br><br> How surprised would you be to learn that what Dennis did was yelled at a wasp?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,46,0,test.cre.u,19,Someone reports: John sorta built a barn.<br><br> How surprised would you be to learn that what John did was build a shack?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,19,0,test.itv.n,6,Someone reoprts: Sam looked for a mountain.<br><br> How surprised would you be to learn that what Sam did was take a quick glance at an outdated map of a mountain?,0,100,50
+1438224246,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,62,0,filler.other.n,27,Someone reports: Rebecca sat on the pillow.<br><br> How surprised would you be to learn that what Rebecca did was sit on a rug?,0,100,50
+#
+# Results on Thursday July 30 2015 02:46:37 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0
+# Design number was non-random = 36
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. html.
+# 9. startValue.
+# 10. endValue.
+# 11. value.
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,48,0,test.cre.s,20,Someone reports to you: Mary recently wrote a novel.<br><br> How surprised would you be to learn that what Mary did was write a novella?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,24,0,test.other.s,8,Someone reports to you: Irene recently flew through a storm.<br><br> How surprised would you be to learn that what Irene did was fly through a bit of rain?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,52,0,test.cre.u,22,Someone reports to you: Sue sorta drew a wolf.<br><br> How surprised would you be to learn that what Sue did was draw a coyote?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,36,0,filler.itv.s,14,Someone reports to you: Helen recently asked for the sandwich.<br><br> How surprised would you be to learn that what Helen did was ask for a wrap?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,76,0,filler.other.u,34,Someone reports to you: Brandon sorta played the oboe.<br><br> How surprised would you be to learn that what Brandon did was play an English horn?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,73,0,filler.other.n,33,Someone reoprts to you: Patricia held the monkey.<br><br> How surprised would you be to learn that what Patricia did was let a monkey climb up her?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,37,0,filler.itv.n,15,Someone reoprts to you: Amanda demanded the towel.<br><br> How surprised would you be to learn that what Amanda did was ask for a towel politely?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,45,0,test.cre.u,19,Someone reoprts to you: John sorta built a barn.<br><br> How surprised would you be to learn that what John did was assemble a barn that had been prefabricated?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,69,0,filler.cre.u,31,Someone reoprts to you: Lars sorta sculpted the mug.<br><br> How surprised would you be to learn that what Lars did was make the handle of a mug?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,72,0,filler.cre.s,32,Someone reports to you: Martina recently invented the soup.<br><br> How surprised would you be to learn that what Martina did was invent a stew?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,49,0,test.cre.n,21,Someone reoprts to you: Peter made a pizza.<br><br> How surprised would you be to learn that what Peter did was reheat a pizza?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,64,0,filler.other.u,28,Someone reports to you: Dan sorta watched the movie.<br><br> How surprised would you be to learn that what Dan did was watch a short film?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,53,0,test.other.s,23,Someone reoprts to you: Anna recently borrowed a scarf.<br><br> How surprised would you be to learn that what Anna did was steal a scarf?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,65,0,filler.cre.s,29,Someone reoprts to you: Cynthia recently composed the sonnet.<br><br> How surprised would you be to learn that what Cynthia did was change a few words in a sonnet by Shakespeare?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,16,0,test.itv.u,4,Someone reports to you: Sarah sorta needed a blender.<br><br> How surprised would you be to learn that what Sarah did was need a food processor?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,61,0,filler.other.n,27,Someone reoprts to you: Rebecca sat on the pillow.<br><br> How surprised would you be to learn that what Rebecca did was kneal on a pillow?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,44,0,filler.other.n,18,Someone reports to you: Craig folded the sheet.<br><br> How surprised would you be to learn that what Craig did was fold a tarp?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,21,0,test.other.u,7,Someone reoprts to you: Chris sorta threw away a pen.<br><br> How surprised would you be to learn that what Chris did was accidentally knock a pen off his desk into the trash?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,57,0,test.other.u,25,Someone reoprts to you: Claire sorta listened to a symphony.<br><br> How surprised would you be to learn that what Claire did was have a symphony on in the background?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,33,0,filler.itv.u,13,Someone reoprts to you: Greg sorta was afraid of the puppy.<br><br> How surprised would you be to learn that what Greg did was be worried about his allergy to a puppy?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,28,0,test.other.u,10,Someone reports to you: Katie sorta visited a castle.<br><br> How surprised would you be to learn that what Katie did was visit a monastery?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,41,0,filler.other.s,17,Someone reoprts to you: Leah recently washed the apple.<br><br> How surprised would you be to learn that what Leah did was rub an apple on her shirt?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,40,0,filler.itv.u,16,Someone reports to you: Ben sorta hoped for the bicycle.<br><br> How surprised would you be to learn that what Ben did was hope for a tricyle?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,20,0,test.itv.n,6,Someone reports to you: Sam looked for a mountain.<br><br> How surprised would you be to learn that what Sam did was look for a big hill?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,17,0,test.itv.s,5,Someone reoprts to you: Andy recently begged for a trophy.<br><br> How surprised would you be to learn that what Andy did was ask what it would take to get a trophy?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,25,0,test.other.n,9,Someone reoprts to you: Dennis yelled at a bee.<br><br> How surprised would you be to learn that what Dennis did was squealed in alarm because of a bee?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,68,0,filler.cre.n,30,Someone reports to you: Duncan created the mess.<br><br> How surprised would you be to learn that what Duncan did was create a little clutter?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,60,0,test.other.s,26,Someone reports to you: Roger recently sliced an orange.<br><br> How surprised would you be to learn that what Roger did was slice a tangerine?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,56,0,test.other.n,24,Someone reports to you: Charlie fell in a pit.<br><br> How surprised would you be to learn that what Charlie did was fall in a medium-size hole?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,13,0,test.itv.n,3,Someone reoprts to you: Bob wanted a raise.<br><br> How surprised would you be to learn that what Bob did was wonder whether he needed a raise?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,29,0,filler.other.s,11,Someone reoprts to you: Tony recently hammered the nail.<br><br> How surprised would you be to learn that what Tony did was pounded at a nail with his shoe?,0,100,50
+1438224398,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,32,0,filler.other.n,12,Someone reports to you: Laura wore the skirt.<br><br> How surprised would you be to learn that what Laura did was wear a tutu?,0,100,50
+#
+# Results on Thursday July 30 2015 02:51:00 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0
+# Design number was non-random = 37
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. html.
+# 9. startValue.
+# 10. endValue.
+# 11. value.
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,27,0,test.other.u,10,Someone reoprts to you: Katie sorta visited a castle.<br><br> How surprised would you be to learn that what Katie did was drive past a castle?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,42,0,filler.other.s,17,Someone reports to you: Leah recently washed the apple.<br><br> How surprised would you be to learn that what Leah did was wash a pear?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,22,0,test.other.u,7,Someone reports to you: Chris sorta threw away a pen.<br><br> How surprised would you be to learn that what Chris did was throw away a marker?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,70,0,filler.cre.u,31,Someone reports to you: Lars sorta sculpted the mug.<br><br> How surprised would you be to learn that what Lars did was sculpt a bowl?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,59,0,test.other.s,26,Someone reoprts to you: Roger recently sliced an orange.<br><br> How surprised would you be to learn that what Roger did was tear an orange into pieces?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,46,0,test.cre.u,19,Someone reports to you: John sorta built a barn.<br><br> How surprised would you be to learn that what John did was build a shack?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,38,0,filler.itv.n,15,Someone reports to you: Amanda demanded the towel.<br><br> How surprised would you be to learn that what Amanda did was demand a washcloth?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,54,0,test.other.s,23,Someone reports to you: Anna recently borrowed a scarf.<br><br> How surprised would you be to learn that what Anna did was borrow a pashmina?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,35,0,filler.itv.s,14,Someone reoprts to you: Helen recently asked for the sandwich.<br><br> How surprised would you be to learn that what Helen did was say she was hungry for a sandwich?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,75,0,filler.other.u,34,Someone reoprts to you: Brandon sorta played the oboe.<br><br> How surprised would you be to learn that what Brandon did was make a few squeeking noises on an oboe?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,18,0,test.itv.s,5,Someone reports to you: Andy recently begged for a trophy.<br><br> How surprised would you be to learn that what Andy did was beg for a statuette?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,62,0,filler.other.n,27,Someone reports to you: Rebecca sat on the pillow.<br><br> How surprised would you be to learn that what Rebecca did was sit on a rug?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,26,0,test.other.n,9,Someone reports to you: Dennis yelled at a bee.<br><br> How surprised would you be to learn that what Dennis did was yell at a wasp?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,51,0,test.cre.u,22,Someone reoprts to you: Sue sorta drew a wolf.<br><br> How surprised would you be to learn that what Sue did was trace a wolf?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,55,0,test.other.n,24,Someone reoprts to you: Charlie fell in a pit.<br><br> How surprised would you be to learn that what Charlie did was get his foot caught in a pit?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,23,0,test.other.s,8,Someone reoprts to you: Irene recently flew through a storm.<br><br> How surprised would you be to learn that what Irene did was flew through the very edge of a storm?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,58,0,test.other.u,25,Someone reports to you: Claire sorta listened to a symphony.<br><br> How surprised would you be to learn that what Claire did was listen to a tone poem?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,47,0,test.cre.s,20,Someone reoprts to you: Mary recently wrote a novel.<br><br> How surprised would you be to learn that what Mary did was co-author a novel?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,19,0,test.itv.n,6,Someone reoprts to you: Sam looked for a mountain.<br><br> How surprised would you be to learn that what Sam did was take a quick glance at an outdated map of a mountain?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,39,0,filler.itv.u,16,Someone reoprts to you: Ben sorta hoped for the bicycle.<br><br> How surprised would you be to learn that what Ben did was not mind a bicycle?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,14,0,test.itv.n,3,Someone reports to you: Bob wanted a raise.<br><br> How surprised would you be to learn that what Bob did was want a bonus?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,34,0,filler.itv.u,13,Someone reports to you: Greg sorta was afraid of the puppy.<br><br> How surprised would you be to learn that what Greg did was be afraid of a full-grown miniature poodle?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,50,0,test.cre.n,21,Someone reports to you: Peter made a pizza.<br><br> How surprised would you be to learn that what Peter did was make a calzone?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,31,0,filler.other.n,12,Someone reoprts to you: Laura wore the skirt.<br><br> How surprised would you be to learn that what Laura did was use a skirt as a shawl?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,71,0,filler.cre.s,32,Someone reoprts to you: Martina recently invented the soup.<br><br> How surprised would you be to learn that what Martina did was add cumin to a soup her grandmother made?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,67,0,filler.cre.n,30,Someone reoprts to you: Duncan created the mess.<br><br> How surprised would you be to learn that what Duncan did was add a bit to a mess that was already there when he arrived?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,43,0,filler.other.n,18,Someone reoprts to you: Craig folded the sheet.<br><br> How surprised would you be to learn that what Craig did was wad a sheet up?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,15,0,test.itv.u,4,Someone reoprts to you: Sarah sorta needed a blender.<br><br> How surprised would you be to learn that what Sarah did was want a blender very badly?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,30,0,filler.other.s,11,Someone reports to you: Tony recently hammered the nail.<br><br> How surprised would you be to learn that what Tony did was hammer a tack?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,63,0,filler.other.u,28,Someone reoprts to you: Dan sorta watched the movie.<br><br> How surprised would you be to learn that what Dan did was sleep through a movie?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,66,0,filler.cre.s,29,Someone reports to you: Cynthia recently composed the sonnet.<br><br> How surprised would you be to learn that what Cynthia did was compose free verse?,0,100,50
+1438224661,7b2f4d27c99ae4267ac9b32ed1ec79a5,Scale,74,0,filler.other.n,33,Someone reports to you: Patricia held the monkey.<br><br> How surprised would you be to learn that what Patricia did was hold a chimpanzee?,0,100,50
